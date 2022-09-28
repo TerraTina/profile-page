@@ -1,7 +1,21 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Nunito', 'sans-serif';
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-family: 'Kiwi Maru', 'serif';
 }
