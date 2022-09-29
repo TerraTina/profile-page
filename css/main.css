@@ -9,11 +9,61 @@ html {
 }
 
 body {
+  margin: 0;
+  padding: 0;
+}
 
+.hero-banner {
+  width: 100%;
+  height: 80vh;
+  background-color: #330099;
+  background-image: url(https://images.freeimages.com/images/large-previews/f64/paper-1190616.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+/* .hero-banner:hover {
+  background-image:linear-gradient(0deg, rgba(75,0,202,0.5), rgba(75,0,202,0.5);
+} */
+
+nav {
+  /* background-color: #330099; */
+  padding-bottom: 5em;
+  background-image:linear-gradient(0deg, rgba(0,0,0,0) 2%, rgba(75,0,202,1) 150%);
+}
+
+/* nav:hover {
+  background-color: #330099;
+} */
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+nav ul li {
+  padding: 0 .5em;
+}
+
+nav ul li a {
+  color: #330099;
+  padding: 0.5em;
+  margin: 1em;
+  text-decoration: none;
+  background-color: #F6F6E7;
+  border-radius: 11px;
+}
+
+nav ul li a:hover {
+background-color: white;
 }
 
 img {
-  max-width: 100%;
+  max-width: 20%;
 }
 
 h2 {
