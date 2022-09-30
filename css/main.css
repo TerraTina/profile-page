@@ -13,28 +13,31 @@ body {
   padding: 0;
 }
 
+main {
+  margin: 1em;
+  padding: 0;
+}
+
 .hero-banner {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-color: #330099;
   background-image: url(https://images.freeimages.com/images/large-previews/f64/paper-1190616.jpg);
   background-repeat: none;
   background-size: cover;
+  filter:opacity(80%);
 }
 
-/* .hero-banner:hover {
-  background-image:linear-gradient(0deg, rgba(75,0,202,0.5), rgba(75,0,202,0.5);
-} */
+nav:hover {
+  background-image:linear-gradient(0deg, rgba(75,0,202,0) 2%, rgba(75,0,202,1) 100%);
+}
 
 nav {
   /* background-color: #330099; */
+  padding-top: 2em;
   padding-bottom: 5em;
   background-image:linear-gradient(0deg, rgba(0,0,0,0) 2%, rgba(75,0,202,1) 150%);
 }
-
-/* nav:hover {
-  background-color: #330099;
-} */
 
 nav ul {
   list-style: none;
@@ -63,9 +66,53 @@ background-color: white;
 }
 
 img {
-  max-width: 20%;
+  object-fit: contain;
+  width: 351px;
+  height: 261px;
+  padding: 0;
+  margin: 0;
+}
+
+.flex img {
+  width: 227px;
+  height: 150px;
+  margin-right: 1em;
 }
 
 h2 {
   font-family: 'Kiwi Maru', 'serif';
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.width {
+  max-width: 60%;
+  min-width: 500px;
+}
+
+section {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  padding: 2em 0;
+  align-items: stretch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+footer {
+  margin-left: 3em;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
